@@ -1,1 +1,1 @@
-# projet-ing1s2
+# projet-ing1s2-informatique
