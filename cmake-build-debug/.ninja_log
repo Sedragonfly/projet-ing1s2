@@ -1,0 +1,13 @@
+# ninja log v6
+54	533	7669456756476827	CMakeFiles/deplaceme.dir/jouer.c.obj	248f0e6b078d187f
+33	542	7669463868964776	CMakeFiles/deplaceme.dir/deplacement.c.obj	827f16f92af69b0a
+11	734	7669475750966177	build.ninja	94ba383cc99f0a7a
+436	824	7642801883991435	Allegro_4_4.exe	d7d80f0b2007beef
+10	494	7669471071208092	CMakeFiles/deplaceme.dir/main.c.obj	808b116c1113626f
+23	438	7669471071328075	CMakeFiles/deplaceme.dir/gravitée_.c.obj	530e493a92117a54
+495	1017	7669471076054747	deplaceme.exe	ea89a7af35359448
+70	542	7669456756637799	CMakeFiles/deplaceme.dir/font_.c.obj	b80907daa28f8a53
+6	758	7669475750966177	build.ninja	a89acf621bffc223
+72	603	7669475754055186	CMakeFiles/deplaceme.dir/font_.c.obj	b80907daa28f8a53
+82	610	7669475754159914	CMakeFiles/deplaceme.dir/personnage.c.obj	e821c720c95e44
+611	1067	7669475759444069	deplaceme.exe	b2ca19b2a81fa9db
