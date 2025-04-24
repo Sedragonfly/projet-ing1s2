@@ -67,6 +67,12 @@ build CMakeFiles/deplaceme.dir/personnage.c.obj: C_COMPILER__deplaceme_unscanned
   OBJECT_DIR = CMakeFiles\deplaceme.dir
   OBJECT_FILE_DIR = CMakeFiles\deplaceme.dir
 
+build CMakeFiles/deplaceme.dir/animation-personage.c.obj: C_COMPILER__deplaceme_unscanned_Debug C$:/informatique$ ing1/Shadow$ Demon/deplaceme/animation-personage.c || cmake_object_order_depends_target_deplaceme
+  DEP_FILE = CMakeFiles\deplaceme.dir\animation-personage.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\deplaceme.dir
+  OBJECT_FILE_DIR = CMakeFiles\deplaceme.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target deplaceme
@@ -75,7 +81,7 @@ build CMakeFiles/deplaceme.dir/personnage.c.obj: C_COMPILER__deplaceme_unscanned
 #############################################
 # Link the executable deplaceme.exe
 
-build deplaceme.exe: C_EXECUTABLE_LINKER__deplaceme_Debug CMakeFiles/deplaceme.dir/main.c.obj CMakeFiles/deplaceme.dir/font_.c.obj CMakeFiles/deplaceme.dir/personnage.c.obj
+build deplaceme.exe: C_EXECUTABLE_LINKER__deplaceme_Debug CMakeFiles/deplaceme.dir/main.c.obj CMakeFiles/deplaceme.dir/font_.c.obj CMakeFiles/deplaceme.dir/personnage.c.obj CMakeFiles/deplaceme.dir/animation-personage.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lmingw32  -lalleg44  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\deplaceme.dir

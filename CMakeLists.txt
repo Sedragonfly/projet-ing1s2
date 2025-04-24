@@ -6,5 +6,7 @@ set(CMAKE_C_STANDARD 23)
 add_executable(deplaceme main.c
         "font .c"
         generale.h
-        personnage.c)
+        personnage.c
+        animation-personage.c
+)
 target_link_libraries(deplaceme -lmingw32 -lalleg44)

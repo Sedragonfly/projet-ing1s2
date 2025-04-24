@@ -1,12 +1,18 @@
 #include "generale.h"
 
-void gravite(t_joueur * joueur, float x);
 
-void deplacement(t_joueur* joueur) {
+
+void deplacement(t_joueur* joueur, BITMAP* buffer, BITMAP* animations[]) {
+
+
+
     float g = 0.1;
     gravite(joueur , g);
     if (key[KEY_W] && joueur->vy>-5) {
         joueur->vy -= 3*g;
+        animationvolle(joueur, buffer, animations);
+    }else {
+
     }
     if (key[KEY_A]) {
         joueur->x += 5;
