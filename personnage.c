@@ -12,7 +12,7 @@ void deplacement(t_joueur* joueur, BITMAP* buffer, BITMAP* animations[]) {
         joueur->vy -= 3*g;
         animationvolle(joueur, buffer, animations);
     }else {
-
+        animationchute(joueur, buffer, animations);
     }
     if (key[KEY_A]) {
         joueur->x += 5;

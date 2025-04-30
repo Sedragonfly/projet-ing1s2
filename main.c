@@ -26,15 +26,16 @@ int main() {
     image_violet=load_bitmap("violet.bmp",NULL);
     image_personage=load_bitmap("personage.bmp",NULL);
     BITMAP *image[]={image_bleu,image_violet};
-    BITMAP *animations[8];
-    animations[0] = load_bitmap("animation_volle_1.bmp", NULL);
-    animations[1] = load_bitmap("animation_volle_2.bmp", NULL);
-    animations[2] = load_bitmap("animation_volle_3.bmp", NULL);
-    animations[3] = load_bitmap("animation_volle_4.bmp", NULL);
-    animations[4] = load_bitmap("animation_volle_5.bmp", NULL);
-    animations[5] = load_bitmap("animation_volle_6.bmp", NULL);
-    animations[6] = load_bitmap("animation_volle_7.bmp", NULL);
-    animations[7] = load_bitmap("animation_volle_8.bmp", NULL);
+    BITMAP *animations[11];
+    char filename[32];
+    for (int i = 0; i < 11; i++) {
+        sprintf(filename, "animation_volle_%d.bmp", i + 1);
+        animations[i] = load_bitmap(filename, NULL);
+        if (!animations[i]) {
+            allegro_message("Erreur chargement %s", filename);
+            exit(EXIT_FAILURE);
+        }
+    }
     t_joueur joueur = {400, 300, 0, 0, 0};
 
 

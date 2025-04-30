@@ -18,12 +18,15 @@ typedef struct {
     float vy;
     int vx;
     int t;
+    int t2;
+    char etat_anim[10];  // "volle" ou "chute"
 }t_joueur;
 int main();
 void initialisation_allegro();
 void deplacement(t_joueur* joueur, BITMAP* buffer, BITMAP* animations[]);
 void gravite(t_joueur * joueur, float x);
-void animationvolle(t_joueur* joueur,BITMAP *buffer,BITMAP *animations[8]);
+void animationvolle(t_joueur* joueur,BITMAP *buffer,BITMAP *animations[]);
+void animationchute(t_joueur* joueur,BITMAP *buffer,BITMAP *animations[]);
 void arriere_plan(t_joueur* joueur, BITMAP *image[], BITMAP *buffer);
 
 #endif //GENERALE_H

@@ -1,4 +1,4 @@
-# Install script for directory: C:/informatique ing1/Shadow Demon/deplaceme
+# Install script for directory: C:/informatique ing1/Shadow Demon/projet-ing1s2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/informatique ing1/Shadow Demon/deplaceme/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/informatique ing1/Shadow Demon/projet-ing1s2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
