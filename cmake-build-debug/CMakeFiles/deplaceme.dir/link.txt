@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\deplaceme.dir/objects.a
+C:\Windows\MinGW\bin\ar.exe qc CMakeFiles\deplaceme.dir/objects.a @CMakeFiles\deplaceme.dir\objects1.rsp
+C:\Windows\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\deplaceme.dir/objects.a -Wl,--no-whole-archive -o deplaceme.exe -Wl,--out-implib,libdeplaceme.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\deplaceme.dir\linkLibs.rsp
