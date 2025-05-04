@@ -8,7 +8,6 @@ void initialisation_allegro();
 int main() {
     BITMAP *image_bleu;
     BITMAP *image_violet;
-    BITMAP *image_personage;
     srand(time(NULL));
 
     // Lancer allegro et le mode graphique
@@ -24,7 +23,7 @@ int main() {
 
     image_bleu=load_bitmap("bleu.bmp",NULL);
     image_violet=load_bitmap("violet.bmp",NULL);
-    image_personage=load_bitmap("personage.bmp",NULL);
+
     BITMAP *image[]={image_bleu,image_violet};
     BITMAP *animations[11];
     char filename[32];
@@ -36,7 +35,7 @@ int main() {
             exit(EXIT_FAILURE);
         }
     }
-    t_joueur joueur = {400, 300, 0, 0, 0};
+    t_joueur joueur = {420, 300, 0, 0, 0};
 
 
 
@@ -47,8 +46,7 @@ int main() {
         clear_bitmap(buffer);
         arriere_plan(&joueur,image,buffer);
 
-        masked_blit(image_personage, buffer, 0, 0, 430-image_personage->w/2, joueur.y-160, image_personage->w, image_personage->h);
-        deplacement(&joueur, buffer, animations);
+                deplacement(&joueur, buffer, animations);
         blit(buffer,screen,0,0,0,0,buffer->w,buffer->h);
         rest(10);
     }

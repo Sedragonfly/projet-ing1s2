@@ -2,13 +2,15 @@
 
 
 
-void deplacement(t_joueur* joueur, BITMAP* buffer, BITMAP* animations[]) {
-
+void deplacement(t_joueur* joueur, BITMAP* buffer, BITMAP* animations[]){
+    BITMAP *image_personage;
+    image_personage=load_bitmap("personage.bmp",NULL);
+    masked_blit(image_personage, buffer, 0, 0, joueur->x+10-image_personage->w/2, joueur->y-160, image_personage->w, image_personage->h);
 
 
     float g = 0.1;
     gravite(joueur , g);
-    if (key[KEY_W] && joueur->vy>-5) {
+    if (key[KEY_W] ) {
         joueur->vy -= 3*g;
         animationvolle(joueur, buffer, animations);
     }else {
