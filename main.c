@@ -1,80 +1,77 @@
 #include  "generale.h"
 
-void initialisation_allegro();
-
 
 
 
 int main() {
-    BITMAP *image_bleu;
-    BITMAP *image_violet;
-    srand(time(NULL));
 
-    // Lancer allegro et le mode graphique
-    allegro_init();
-    install_keyboard();
-    set_color_depth(desktop_color_depth());
-    if (set_gfx_mode(GFX_AUTODETECT_WINDOWED,800,600,0,0)!=0)
-    {
-        allegro_message("prb gfx mode");
+        allegro_init();
+        install_keyboard();
+        install_mouse();
+        set_color_depth(desktop_color_depth());
+
+        if (set_gfx_mode(GFX_AUTODETECT_WINDOWED, 800, 600, 0, 0) != 0) {
+            allegro_message("Problème mode graphique");
+            allegro_exit();
+            exit(EXIT_FAILURE);
+        }
+
+
+
+
+    t_joueur joueur = {150, 300, 0, 5, 0, 0};
+    t_decore decore = {0,5};
+
+
+
+    // Buffer unique pour tout
+    BITMAP *buffer = create_bitmap(SCREEN_W, SCREEN_H);
+    if (!buffer) {
+        allegro_message("Erreur de création du buffer");
+        allegro_exit();
+        exit(EXIT_FAILURE);
+    }
+    BITMAP *buffer2 = create_bitmap(SCREEN_W, SCREEN_H);
+    if (!buffer2) {
+        allegro_message("Erreur de création du buffer");
         allegro_exit();
         exit(EXIT_FAILURE);
     }
 
-    image_bleu=load_bitmap("bleu.bmp",NULL);
-    image_violet=load_bitmap("violet.bmp",NULL);
-
-    BITMAP *image[]={image_bleu,image_violet};
-    BITMAP *animations[11];
-    char filename[32];
-    for (int i = 0; i < 11; i++) {
-        sprintf(filename, "animation_volle_%d.bmp", i + 1);
-        animations[i] = load_bitmap(filename, NULL);
-        if (!animations[i]) {
-            allegro_message("Erreur chargement %s", filename);
-            exit(EXIT_FAILURE);
-        }
-    }
-    t_joueur joueur = {420, 300, 0, 0, 0};
-
-
-
-    BITMAP *buffer=create_bitmap(SCREEN_W,SCREEN_H);
+    arriere_plan_de_depar(); // Initialiser les objets de décor
+    charger_images(&joueur);
+    menu_principal();
     while (!key[KEY_ESC]) {
-
-
-        clear_bitmap(buffer);
-        arriere_plan(&joueur,image,buffer);
-
-                deplacement(&joueur, buffer, animations);
-        blit(buffer,screen,0,0,0,0,buffer->w,buffer->h);
+        afficher_selection_niveau(buffer);
+        int niveau = gerer_selection_niveau();
+        blit(buffer, screen, 0, 0, 0, 0, buffer->w, buffer->h); // Afficher le buffer sur l'écran
         rest(10);
+        if (niveau > 0) {
+            while (!key[KEY_ESC]) {
+                if(niveau == 1) {
+                    clear_bitmap(buffer);      // Effacer tout les buffer
+                    clear_bitmap(buffer2);
+                    arriere_plan(buffer);      // Dessiner le fond (arbres, oiseaux, lucioles)
+                    deplacement(&joueur, buffer);  // Dessiner le personnage par-dessus le fond
+                    interaction(&joueur,&decore,buffer,buffer2);
+                    blit(buffer, screen, 0, 0, 0, 0, buffer->w, buffer->h); // Afficher le buffer sur l'écran
+                    rest(10);
+                }
+                else if (niveau == 2) {
+                    clear_bitmap(buffer);      // Effacer tout les buffer
+                    clear_bitmap(buffer2);
+
+                }
+                else if (niveau == 3) {
+
+
+                }
+            }
+        }
+
+
     }
-
-
-
-    //quand on a plus besoin de la bitmap, on la détruit
-
-    destroy_bitmap(image_bleu);
-    destroy_bitmap(image_violet);
+    destroy_bitmap(buffer);
     allegro_exit();
     return 0;
 }END_OF_MAIN();
-
-void initialisation_allegro() {
-    allegro_init(); // appel obligatoire (var.globales, recup. infos syst me ...)
-    install_keyboard(); //pour utiliser le clavier
-    install_mouse(); //pour utiliser la souris
-    //pour choisir la profondeur de couleurs (8,16,24 ou 32 bits)
-    set_color_depth(desktop_color_depth()); //ici : identique à celle du bureau
-
-    //sélection du mode graphique
-    // avec choix d'un driver+mode+résolution de l'écran
-    /// si échec, le programme s'arrête
-    if(set_gfx_mode(GFX_AUTODETECT_WINDOWED,800,600,0,0)!=0)
-    {
-        allegro_message("probleme mode graphique");
-        allegro_exit();
-        exit(EXIT_FAILURE);
-    }
-}

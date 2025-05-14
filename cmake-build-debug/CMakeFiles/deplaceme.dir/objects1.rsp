@@ -1,1 +1,1 @@
-CMakeFiles/deplaceme.dir/main.c.obj CMakeFiles/deplaceme.dir/font_.c.obj CMakeFiles/deplaceme.dir/personnage.c.obj "CMakeFiles/deplaceme.dir/animation-personage.c.obj"
+CMakeFiles/deplaceme.dir/main.c.obj CMakeFiles/deplaceme.dir/personnage.c.obj "CMakeFiles/deplaceme.dir/animation-personage.c.obj" "CMakeFiles/deplaceme.dir/charger-images.c.obj" CMakeFiles/deplaceme.dir/font.c.obj CMakeFiles/deplaceme.dir/mur.c.obj CMakeFiles/deplaceme.dir/menu.c.obj CMakeFiles/deplaceme.dir/menu_niveau.c.obj

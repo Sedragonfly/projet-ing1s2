@@ -62,6 +62,7 @@ CMakeFiles/deplaceme.dir/animation-personage.c.obj: C:/informatique\ ing1/Shadow
   C:/Windows/MinGW/include/io.h \
   C:/Windows/MinGW/include/limits.h \
   C:/Windows/MinGW/include/malloc.h \
+  C:/Windows/MinGW/include/math.h \
   C:/Windows/MinGW/include/msvcrtver.h \
   C:/Windows/MinGW/include/sdkddkver.h \
   C:/Windows/MinGW/include/stdint.h \
@@ -78,7 +79,7 @@ CMakeFiles/deplaceme.dir/animation-personage.c.obj: C:/informatique\ ing1/Shadow
   C:/Windows/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
   C:/Windows/MinGW/lib/gcc/mingw32/6.3.0/include/stdint.h
 
-CMakeFiles/deplaceme.dir/font_.c.obj: C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/font\ .c \
+CMakeFiles/deplaceme.dir/charger-images.c.obj: C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/charger-images.c \
   C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/generale.h \
   C:/Windows/MinGW/include/_mingw.h \
   C:/Windows/MinGW/include/allegro.h \
@@ -139,6 +140,85 @@ CMakeFiles/deplaceme.dir/font_.c.obj: C:/informatique\ ing1/Shadow\ Demon/projet
   C:/Windows/MinGW/include/io.h \
   C:/Windows/MinGW/include/limits.h \
   C:/Windows/MinGW/include/malloc.h \
+  C:/Windows/MinGW/include/math.h \
+  C:/Windows/MinGW/include/msvcrtver.h \
+  C:/Windows/MinGW/include/sdkddkver.h \
+  C:/Windows/MinGW/include/stdint.h \
+  C:/Windows/MinGW/include/stdio.h \
+  C:/Windows/MinGW/include/stdlib.h \
+  C:/Windows/MinGW/include/string.h \
+  C:/Windows/MinGW/include/strings.h \
+  C:/Windows/MinGW/include/sys/types.h \
+  C:/Windows/MinGW/include/sys/types.h \
+  C:/Windows/MinGW/include/time.h \
+  C:/Windows/MinGW/include/w32api.h \
+  C:/Windows/MinGW/include/wchar.h \
+  C:/Windows/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
+  C:/Windows/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
+  C:/Windows/MinGW/lib/gcc/mingw32/6.3.0/include/stdint.h
+
+CMakeFiles/deplaceme.dir/font.c.obj: C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/font.c \
+  C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/generale.h \
+  C:/Windows/MinGW/include/_mingw.h \
+  C:/Windows/MinGW/include/allegro.h \
+  C:/Windows/MinGW/include/allegro/3d.h \
+  C:/Windows/MinGW/include/allegro/3dmaths.h \
+  C:/Windows/MinGW/include/allegro/alcompat.h \
+  C:/Windows/MinGW/include/allegro/base.h \
+  C:/Windows/MinGW/include/allegro/color.h \
+  C:/Windows/MinGW/include/allegro/compiled.h \
+  C:/Windows/MinGW/include/allegro/config.h \
+  C:/Windows/MinGW/include/allegro/datafile.h \
+  C:/Windows/MinGW/include/allegro/debug.h \
+  C:/Windows/MinGW/include/allegro/digi.h \
+  C:/Windows/MinGW/include/allegro/draw.h \
+  C:/Windows/MinGW/include/allegro/file.h \
+  C:/Windows/MinGW/include/allegro/fixed.h \
+  C:/Windows/MinGW/include/allegro/fli.h \
+  C:/Windows/MinGW/include/allegro/fmaths.h \
+  C:/Windows/MinGW/include/allegro/font.h \
+  C:/Windows/MinGW/include/allegro/gfx.h \
+  C:/Windows/MinGW/include/allegro/gui.h \
+  C:/Windows/MinGW/include/allegro/inline/3dmaths.inl \
+  C:/Windows/MinGW/include/allegro/inline/asm.inl \
+  C:/Windows/MinGW/include/allegro/inline/color.inl \
+  C:/Windows/MinGW/include/allegro/inline/draw.inl \
+  C:/Windows/MinGW/include/allegro/inline/fmaths.inl \
+  C:/Windows/MinGW/include/allegro/inline/gfx.inl \
+  C:/Windows/MinGW/include/allegro/inline/matrix.inl \
+  C:/Windows/MinGW/include/allegro/inline/rle.inl \
+  C:/Windows/MinGW/include/allegro/inline/system.inl \
+  C:/Windows/MinGW/include/allegro/internal/alconfig.h \
+  C:/Windows/MinGW/include/allegro/joystick.h \
+  C:/Windows/MinGW/include/allegro/keyboard.h \
+  C:/Windows/MinGW/include/allegro/lzss.h \
+  C:/Windows/MinGW/include/allegro/matrix.h \
+  C:/Windows/MinGW/include/allegro/midi.h \
+  C:/Windows/MinGW/include/allegro/mouse.h \
+  C:/Windows/MinGW/include/allegro/palette.h \
+  C:/Windows/MinGW/include/allegro/platform/alwin.h \
+  C:/Windows/MinGW/include/allegro/quat.h \
+  C:/Windows/MinGW/include/allegro/rle.h \
+  C:/Windows/MinGW/include/allegro/sound.h \
+  C:/Windows/MinGW/include/allegro/stream.h \
+  C:/Windows/MinGW/include/allegro/system.h \
+  C:/Windows/MinGW/include/allegro/text.h \
+  C:/Windows/MinGW/include/allegro/timer.h \
+  C:/Windows/MinGW/include/allegro/unicode.h \
+  C:/Windows/MinGW/include/allegro/3d.h \
+  C:/Windows/MinGW/include/allegro/base.h \
+  C:/Windows/MinGW/include/allegro/debug.h \
+  C:/Windows/MinGW/include/allegro/platform/almngw32.h \
+  C:/Windows/MinGW/include/allegro/platform/alplatf.h \
+  C:/Windows/MinGW/include/allegro/platform/astdint.h \
+  C:/Windows/MinGW/include/direct.h \
+  C:/Windows/MinGW/include/dos.h \
+  C:/Windows/MinGW/include/errno.h \
+  C:/Windows/MinGW/include/fcntl.h \
+  C:/Windows/MinGW/include/io.h \
+  C:/Windows/MinGW/include/limits.h \
+  C:/Windows/MinGW/include/malloc.h \
+  C:/Windows/MinGW/include/math.h \
   C:/Windows/MinGW/include/msvcrtver.h \
   C:/Windows/MinGW/include/sdkddkver.h \
   C:/Windows/MinGW/include/stdint.h \
@@ -216,6 +296,241 @@ CMakeFiles/deplaceme.dir/main.c.obj: C:/informatique\ ing1/Shadow\ Demon/projet-
   C:/Windows/MinGW/include/io.h \
   C:/Windows/MinGW/include/limits.h \
   C:/Windows/MinGW/include/malloc.h \
+  C:/Windows/MinGW/include/math.h \
+  C:/Windows/MinGW/include/msvcrtver.h \
+  C:/Windows/MinGW/include/sdkddkver.h \
+  C:/Windows/MinGW/include/stdint.h \
+  C:/Windows/MinGW/include/stdio.h \
+  C:/Windows/MinGW/include/stdlib.h \
+  C:/Windows/MinGW/include/string.h \
+  C:/Windows/MinGW/include/strings.h \
+  C:/Windows/MinGW/include/sys/types.h \
+  C:/Windows/MinGW/include/sys/types.h \
+  C:/Windows/MinGW/include/time.h \
+  C:/Windows/MinGW/include/w32api.h \
+  C:/Windows/MinGW/include/wchar.h \
+  C:/Windows/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
+  C:/Windows/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
+  C:/Windows/MinGW/lib/gcc/mingw32/6.3.0/include/stdint.h
+
+CMakeFiles/deplaceme.dir/menu.c.obj: C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/menu.c \
+  C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/generale.h \
+  C:/Windows/MinGW/include/_mingw.h \
+  C:/Windows/MinGW/include/allegro.h \
+  C:/Windows/MinGW/include/allegro/3d.h \
+  C:/Windows/MinGW/include/allegro/3dmaths.h \
+  C:/Windows/MinGW/include/allegro/alcompat.h \
+  C:/Windows/MinGW/include/allegro/base.h \
+  C:/Windows/MinGW/include/allegro/color.h \
+  C:/Windows/MinGW/include/allegro/compiled.h \
+  C:/Windows/MinGW/include/allegro/config.h \
+  C:/Windows/MinGW/include/allegro/datafile.h \
+  C:/Windows/MinGW/include/allegro/debug.h \
+  C:/Windows/MinGW/include/allegro/digi.h \
+  C:/Windows/MinGW/include/allegro/draw.h \
+  C:/Windows/MinGW/include/allegro/file.h \
+  C:/Windows/MinGW/include/allegro/fixed.h \
+  C:/Windows/MinGW/include/allegro/fli.h \
+  C:/Windows/MinGW/include/allegro/fmaths.h \
+  C:/Windows/MinGW/include/allegro/font.h \
+  C:/Windows/MinGW/include/allegro/gfx.h \
+  C:/Windows/MinGW/include/allegro/gui.h \
+  C:/Windows/MinGW/include/allegro/inline/3dmaths.inl \
+  C:/Windows/MinGW/include/allegro/inline/asm.inl \
+  C:/Windows/MinGW/include/allegro/inline/color.inl \
+  C:/Windows/MinGW/include/allegro/inline/draw.inl \
+  C:/Windows/MinGW/include/allegro/inline/fmaths.inl \
+  C:/Windows/MinGW/include/allegro/inline/gfx.inl \
+  C:/Windows/MinGW/include/allegro/inline/matrix.inl \
+  C:/Windows/MinGW/include/allegro/inline/rle.inl \
+  C:/Windows/MinGW/include/allegro/inline/system.inl \
+  C:/Windows/MinGW/include/allegro/internal/alconfig.h \
+  C:/Windows/MinGW/include/allegro/joystick.h \
+  C:/Windows/MinGW/include/allegro/keyboard.h \
+  C:/Windows/MinGW/include/allegro/lzss.h \
+  C:/Windows/MinGW/include/allegro/matrix.h \
+  C:/Windows/MinGW/include/allegro/midi.h \
+  C:/Windows/MinGW/include/allegro/mouse.h \
+  C:/Windows/MinGW/include/allegro/palette.h \
+  C:/Windows/MinGW/include/allegro/platform/alwin.h \
+  C:/Windows/MinGW/include/allegro/quat.h \
+  C:/Windows/MinGW/include/allegro/rle.h \
+  C:/Windows/MinGW/include/allegro/sound.h \
+  C:/Windows/MinGW/include/allegro/stream.h \
+  C:/Windows/MinGW/include/allegro/system.h \
+  C:/Windows/MinGW/include/allegro/text.h \
+  C:/Windows/MinGW/include/allegro/timer.h \
+  C:/Windows/MinGW/include/allegro/unicode.h \
+  C:/Windows/MinGW/include/allegro/3d.h \
+  C:/Windows/MinGW/include/allegro/base.h \
+  C:/Windows/MinGW/include/allegro/debug.h \
+  C:/Windows/MinGW/include/allegro/platform/almngw32.h \
+  C:/Windows/MinGW/include/allegro/platform/alplatf.h \
+  C:/Windows/MinGW/include/allegro/platform/astdint.h \
+  C:/Windows/MinGW/include/direct.h \
+  C:/Windows/MinGW/include/dos.h \
+  C:/Windows/MinGW/include/errno.h \
+  C:/Windows/MinGW/include/fcntl.h \
+  C:/Windows/MinGW/include/io.h \
+  C:/Windows/MinGW/include/limits.h \
+  C:/Windows/MinGW/include/malloc.h \
+  C:/Windows/MinGW/include/math.h \
+  C:/Windows/MinGW/include/msvcrtver.h \
+  C:/Windows/MinGW/include/sdkddkver.h \
+  C:/Windows/MinGW/include/stdint.h \
+  C:/Windows/MinGW/include/stdio.h \
+  C:/Windows/MinGW/include/stdlib.h \
+  C:/Windows/MinGW/include/string.h \
+  C:/Windows/MinGW/include/strings.h \
+  C:/Windows/MinGW/include/sys/types.h \
+  C:/Windows/MinGW/include/sys/types.h \
+  C:/Windows/MinGW/include/time.h \
+  C:/Windows/MinGW/include/w32api.h \
+  C:/Windows/MinGW/include/wchar.h \
+  C:/Windows/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
+  C:/Windows/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
+  C:/Windows/MinGW/lib/gcc/mingw32/6.3.0/include/stdint.h
+
+CMakeFiles/deplaceme.dir/menu_niveau.c.obj: C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/menu_niveau.c \
+  C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/generale.h \
+  C:/Windows/MinGW/include/_mingw.h \
+  C:/Windows/MinGW/include/allegro.h \
+  C:/Windows/MinGW/include/allegro/3d.h \
+  C:/Windows/MinGW/include/allegro/3dmaths.h \
+  C:/Windows/MinGW/include/allegro/alcompat.h \
+  C:/Windows/MinGW/include/allegro/base.h \
+  C:/Windows/MinGW/include/allegro/color.h \
+  C:/Windows/MinGW/include/allegro/compiled.h \
+  C:/Windows/MinGW/include/allegro/config.h \
+  C:/Windows/MinGW/include/allegro/datafile.h \
+  C:/Windows/MinGW/include/allegro/debug.h \
+  C:/Windows/MinGW/include/allegro/digi.h \
+  C:/Windows/MinGW/include/allegro/draw.h \
+  C:/Windows/MinGW/include/allegro/file.h \
+  C:/Windows/MinGW/include/allegro/fixed.h \
+  C:/Windows/MinGW/include/allegro/fli.h \
+  C:/Windows/MinGW/include/allegro/fmaths.h \
+  C:/Windows/MinGW/include/allegro/font.h \
+  C:/Windows/MinGW/include/allegro/gfx.h \
+  C:/Windows/MinGW/include/allegro/gui.h \
+  C:/Windows/MinGW/include/allegro/inline/3dmaths.inl \
+  C:/Windows/MinGW/include/allegro/inline/asm.inl \
+  C:/Windows/MinGW/include/allegro/inline/color.inl \
+  C:/Windows/MinGW/include/allegro/inline/draw.inl \
+  C:/Windows/MinGW/include/allegro/inline/fmaths.inl \
+  C:/Windows/MinGW/include/allegro/inline/gfx.inl \
+  C:/Windows/MinGW/include/allegro/inline/matrix.inl \
+  C:/Windows/MinGW/include/allegro/inline/rle.inl \
+  C:/Windows/MinGW/include/allegro/inline/system.inl \
+  C:/Windows/MinGW/include/allegro/internal/alconfig.h \
+  C:/Windows/MinGW/include/allegro/joystick.h \
+  C:/Windows/MinGW/include/allegro/keyboard.h \
+  C:/Windows/MinGW/include/allegro/lzss.h \
+  C:/Windows/MinGW/include/allegro/matrix.h \
+  C:/Windows/MinGW/include/allegro/midi.h \
+  C:/Windows/MinGW/include/allegro/mouse.h \
+  C:/Windows/MinGW/include/allegro/palette.h \
+  C:/Windows/MinGW/include/allegro/platform/alwin.h \
+  C:/Windows/MinGW/include/allegro/quat.h \
+  C:/Windows/MinGW/include/allegro/rle.h \
+  C:/Windows/MinGW/include/allegro/sound.h \
+  C:/Windows/MinGW/include/allegro/stream.h \
+  C:/Windows/MinGW/include/allegro/system.h \
+  C:/Windows/MinGW/include/allegro/text.h \
+  C:/Windows/MinGW/include/allegro/timer.h \
+  C:/Windows/MinGW/include/allegro/unicode.h \
+  C:/Windows/MinGW/include/allegro/3d.h \
+  C:/Windows/MinGW/include/allegro/base.h \
+  C:/Windows/MinGW/include/allegro/debug.h \
+  C:/Windows/MinGW/include/allegro/platform/almngw32.h \
+  C:/Windows/MinGW/include/allegro/platform/alplatf.h \
+  C:/Windows/MinGW/include/allegro/platform/astdint.h \
+  C:/Windows/MinGW/include/direct.h \
+  C:/Windows/MinGW/include/dos.h \
+  C:/Windows/MinGW/include/errno.h \
+  C:/Windows/MinGW/include/fcntl.h \
+  C:/Windows/MinGW/include/io.h \
+  C:/Windows/MinGW/include/limits.h \
+  C:/Windows/MinGW/include/malloc.h \
+  C:/Windows/MinGW/include/math.h \
+  C:/Windows/MinGW/include/msvcrtver.h \
+  C:/Windows/MinGW/include/sdkddkver.h \
+  C:/Windows/MinGW/include/stdint.h \
+  C:/Windows/MinGW/include/stdio.h \
+  C:/Windows/MinGW/include/stdlib.h \
+  C:/Windows/MinGW/include/string.h \
+  C:/Windows/MinGW/include/strings.h \
+  C:/Windows/MinGW/include/sys/types.h \
+  C:/Windows/MinGW/include/sys/types.h \
+  C:/Windows/MinGW/include/time.h \
+  C:/Windows/MinGW/include/w32api.h \
+  C:/Windows/MinGW/include/wchar.h \
+  C:/Windows/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
+  C:/Windows/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
+  C:/Windows/MinGW/lib/gcc/mingw32/6.3.0/include/stdint.h
+
+CMakeFiles/deplaceme.dir/mur.c.obj: C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/mur.c \
+  C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/generale.h \
+  C:/Windows/MinGW/include/_mingw.h \
+  C:/Windows/MinGW/include/allegro.h \
+  C:/Windows/MinGW/include/allegro/3d.h \
+  C:/Windows/MinGW/include/allegro/3dmaths.h \
+  C:/Windows/MinGW/include/allegro/alcompat.h \
+  C:/Windows/MinGW/include/allegro/base.h \
+  C:/Windows/MinGW/include/allegro/color.h \
+  C:/Windows/MinGW/include/allegro/compiled.h \
+  C:/Windows/MinGW/include/allegro/config.h \
+  C:/Windows/MinGW/include/allegro/datafile.h \
+  C:/Windows/MinGW/include/allegro/debug.h \
+  C:/Windows/MinGW/include/allegro/digi.h \
+  C:/Windows/MinGW/include/allegro/draw.h \
+  C:/Windows/MinGW/include/allegro/file.h \
+  C:/Windows/MinGW/include/allegro/fixed.h \
+  C:/Windows/MinGW/include/allegro/fli.h \
+  C:/Windows/MinGW/include/allegro/fmaths.h \
+  C:/Windows/MinGW/include/allegro/font.h \
+  C:/Windows/MinGW/include/allegro/gfx.h \
+  C:/Windows/MinGW/include/allegro/gui.h \
+  C:/Windows/MinGW/include/allegro/inline/3dmaths.inl \
+  C:/Windows/MinGW/include/allegro/inline/asm.inl \
+  C:/Windows/MinGW/include/allegro/inline/color.inl \
+  C:/Windows/MinGW/include/allegro/inline/draw.inl \
+  C:/Windows/MinGW/include/allegro/inline/fmaths.inl \
+  C:/Windows/MinGW/include/allegro/inline/gfx.inl \
+  C:/Windows/MinGW/include/allegro/inline/matrix.inl \
+  C:/Windows/MinGW/include/allegro/inline/rle.inl \
+  C:/Windows/MinGW/include/allegro/inline/system.inl \
+  C:/Windows/MinGW/include/allegro/internal/alconfig.h \
+  C:/Windows/MinGW/include/allegro/joystick.h \
+  C:/Windows/MinGW/include/allegro/keyboard.h \
+  C:/Windows/MinGW/include/allegro/lzss.h \
+  C:/Windows/MinGW/include/allegro/matrix.h \
+  C:/Windows/MinGW/include/allegro/midi.h \
+  C:/Windows/MinGW/include/allegro/mouse.h \
+  C:/Windows/MinGW/include/allegro/palette.h \
+  C:/Windows/MinGW/include/allegro/platform/alwin.h \
+  C:/Windows/MinGW/include/allegro/quat.h \
+  C:/Windows/MinGW/include/allegro/rle.h \
+  C:/Windows/MinGW/include/allegro/sound.h \
+  C:/Windows/MinGW/include/allegro/stream.h \
+  C:/Windows/MinGW/include/allegro/system.h \
+  C:/Windows/MinGW/include/allegro/text.h \
+  C:/Windows/MinGW/include/allegro/timer.h \
+  C:/Windows/MinGW/include/allegro/unicode.h \
+  C:/Windows/MinGW/include/allegro/3d.h \
+  C:/Windows/MinGW/include/allegro/base.h \
+  C:/Windows/MinGW/include/allegro/debug.h \
+  C:/Windows/MinGW/include/allegro/platform/almngw32.h \
+  C:/Windows/MinGW/include/allegro/platform/alplatf.h \
+  C:/Windows/MinGW/include/allegro/platform/astdint.h \
+  C:/Windows/MinGW/include/direct.h \
+  C:/Windows/MinGW/include/dos.h \
+  C:/Windows/MinGW/include/errno.h \
+  C:/Windows/MinGW/include/fcntl.h \
+  C:/Windows/MinGW/include/io.h \
+  C:/Windows/MinGW/include/limits.h \
+  C:/Windows/MinGW/include/malloc.h \
+  C:/Windows/MinGW/include/math.h \
   C:/Windows/MinGW/include/msvcrtver.h \
   C:/Windows/MinGW/include/sdkddkver.h \
   C:/Windows/MinGW/include/stdint.h \
@@ -293,6 +608,7 @@ CMakeFiles/deplaceme.dir/personnage.c.obj: C:/informatique\ ing1/Shadow\ Demon/p
   C:/Windows/MinGW/include/io.h \
   C:/Windows/MinGW/include/limits.h \
   C:/Windows/MinGW/include/malloc.h \
+  C:/Windows/MinGW/include/math.h \
   C:/Windows/MinGW/include/msvcrtver.h \
   C:/Windows/MinGW/include/sdkddkver.h \
   C:/Windows/MinGW/include/stdint.h \
@@ -315,6 +631,8 @@ C:/Windows/MinGW/include/allegro/alcompat.h:
 C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/animation-personage.c:
 
 C:/Windows/MinGW/include/allegro/3d.h:
+
+C:/Windows/MinGW/include/math.h:
 
 C:/Windows/MinGW/include/allegro/debug.h:
 
@@ -382,8 +700,6 @@ C:/Windows/MinGW/include/direct.h:
 
 C:/Windows/MinGW/include/allegro/inline/asm.inl:
 
-C:/Windows/MinGW/include/string.h:
-
 C:/Windows/MinGW/include/allegro/inline/color.inl:
 
 C:/Windows/MinGW/include/allegro/inline/draw.inl:
@@ -411,6 +727,8 @@ C:/Windows/MinGW/include/allegro/lzss.h:
 C:/Windows/MinGW/include/msvcrtver.h:
 
 C:/Windows/MinGW/include/allegro/rle.h:
+
+C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/menu.c:
 
 C:/Windows/MinGW/include/allegro/midi.h:
 
@@ -442,6 +760,10 @@ C:/Windows/MinGW/include/sdkddkver.h:
 
 C:/Windows/MinGW/include/stdio.h:
 
+C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/mur.c:
+
+C:/Windows/MinGW/include/string.h:
+
 C:/Windows/MinGW/include/strings.h:
 
 C:/Windows/MinGW/include/sys/types.h:
@@ -454,8 +776,12 @@ C:/Windows/MinGW/include/wchar.h:
 
 C:/Windows/MinGW/lib/gcc/mingw32/6.3.0/include/stdint.h:
 
-C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/font\ .c:
+C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/charger-images.c:
+
+C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/font.c:
 
 C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/main.c:
+
+C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/menu_niveau.c:
 
 C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/personnage.c:

@@ -82,24 +82,10 @@ CMakeFiles/deplaceme.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/deplaceme.dir/main.c.s"
 	C:\Windows\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\informatique ing1\Shadow Demon\projet-ing1s2\main.c" -o CMakeFiles\deplaceme.dir\main.c.s
 
-CMakeFiles/deplaceme.dir/font_.c.obj: CMakeFiles/deplaceme.dir/flags.make
-CMakeFiles/deplaceme.dir/font_.c.obj: C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/font\ .c
-CMakeFiles/deplaceme.dir/font_.c.obj: CMakeFiles/deplaceme.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\informatique ing1\Shadow Demon\projet-ing1s2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/deplaceme.dir/font_.c.obj"
-	C:\Windows\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/deplaceme.dir/font_.c.obj -MF CMakeFiles\deplaceme.dir\font_.c.obj.d -o CMakeFiles\deplaceme.dir\font_.c.obj -c "C:\informatique ing1\Shadow Demon\projet-ing1s2\font .c"
-
-CMakeFiles/deplaceme.dir/font_.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/deplaceme.dir/font_.c.i"
-	C:\Windows\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\informatique ing1\Shadow Demon\projet-ing1s2\font .c" > CMakeFiles\deplaceme.dir\font_.c.i
-
-CMakeFiles/deplaceme.dir/font_.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/deplaceme.dir/font_.c.s"
-	C:\Windows\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\informatique ing1\Shadow Demon\projet-ing1s2\font .c" -o CMakeFiles\deplaceme.dir\font_.c.s
-
 CMakeFiles/deplaceme.dir/personnage.c.obj: CMakeFiles/deplaceme.dir/flags.make
 CMakeFiles/deplaceme.dir/personnage.c.obj: C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/personnage.c
 CMakeFiles/deplaceme.dir/personnage.c.obj: CMakeFiles/deplaceme.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\informatique ing1\Shadow Demon\projet-ing1s2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/deplaceme.dir/personnage.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\informatique ing1\Shadow Demon\projet-ing1s2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/deplaceme.dir/personnage.c.obj"
 	C:\Windows\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/deplaceme.dir/personnage.c.obj -MF CMakeFiles\deplaceme.dir\personnage.c.obj.d -o CMakeFiles\deplaceme.dir\personnage.c.obj -c "C:\informatique ing1\Shadow Demon\projet-ing1s2\personnage.c"
 
 CMakeFiles/deplaceme.dir/personnage.c.i: cmake_force
@@ -113,7 +99,7 @@ CMakeFiles/deplaceme.dir/personnage.c.s: cmake_force
 CMakeFiles/deplaceme.dir/animation-personage.c.obj: CMakeFiles/deplaceme.dir/flags.make
 CMakeFiles/deplaceme.dir/animation-personage.c.obj: C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/animation-personage.c
 CMakeFiles/deplaceme.dir/animation-personage.c.obj: CMakeFiles/deplaceme.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\informatique ing1\Shadow Demon\projet-ing1s2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/deplaceme.dir/animation-personage.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\informatique ing1\Shadow Demon\projet-ing1s2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/deplaceme.dir/animation-personage.c.obj"
 	C:\Windows\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/deplaceme.dir/animation-personage.c.obj -MF CMakeFiles\deplaceme.dir\animation-personage.c.obj.d -o CMakeFiles\deplaceme.dir\animation-personage.c.obj -c "C:\informatique ing1\Shadow Demon\projet-ing1s2\animation-personage.c"
 
 CMakeFiles/deplaceme.dir/animation-personage.c.i: cmake_force
@@ -124,25 +110,103 @@ CMakeFiles/deplaceme.dir/animation-personage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/deplaceme.dir/animation-personage.c.s"
 	C:\Windows\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\informatique ing1\Shadow Demon\projet-ing1s2\animation-personage.c" -o CMakeFiles\deplaceme.dir\animation-personage.c.s
 
+CMakeFiles/deplaceme.dir/charger-images.c.obj: CMakeFiles/deplaceme.dir/flags.make
+CMakeFiles/deplaceme.dir/charger-images.c.obj: C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/charger-images.c
+CMakeFiles/deplaceme.dir/charger-images.c.obj: CMakeFiles/deplaceme.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\informatique ing1\Shadow Demon\projet-ing1s2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/deplaceme.dir/charger-images.c.obj"
+	C:\Windows\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/deplaceme.dir/charger-images.c.obj -MF CMakeFiles\deplaceme.dir\charger-images.c.obj.d -o CMakeFiles\deplaceme.dir\charger-images.c.obj -c "C:\informatique ing1\Shadow Demon\projet-ing1s2\charger-images.c"
+
+CMakeFiles/deplaceme.dir/charger-images.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/deplaceme.dir/charger-images.c.i"
+	C:\Windows\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\informatique ing1\Shadow Demon\projet-ing1s2\charger-images.c" > CMakeFiles\deplaceme.dir\charger-images.c.i
+
+CMakeFiles/deplaceme.dir/charger-images.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/deplaceme.dir/charger-images.c.s"
+	C:\Windows\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\informatique ing1\Shadow Demon\projet-ing1s2\charger-images.c" -o CMakeFiles\deplaceme.dir\charger-images.c.s
+
+CMakeFiles/deplaceme.dir/font.c.obj: CMakeFiles/deplaceme.dir/flags.make
+CMakeFiles/deplaceme.dir/font.c.obj: C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/font.c
+CMakeFiles/deplaceme.dir/font.c.obj: CMakeFiles/deplaceme.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\informatique ing1\Shadow Demon\projet-ing1s2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/deplaceme.dir/font.c.obj"
+	C:\Windows\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/deplaceme.dir/font.c.obj -MF CMakeFiles\deplaceme.dir\font.c.obj.d -o CMakeFiles\deplaceme.dir\font.c.obj -c "C:\informatique ing1\Shadow Demon\projet-ing1s2\font.c"
+
+CMakeFiles/deplaceme.dir/font.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/deplaceme.dir/font.c.i"
+	C:\Windows\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\informatique ing1\Shadow Demon\projet-ing1s2\font.c" > CMakeFiles\deplaceme.dir\font.c.i
+
+CMakeFiles/deplaceme.dir/font.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/deplaceme.dir/font.c.s"
+	C:\Windows\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\informatique ing1\Shadow Demon\projet-ing1s2\font.c" -o CMakeFiles\deplaceme.dir\font.c.s
+
+CMakeFiles/deplaceme.dir/mur.c.obj: CMakeFiles/deplaceme.dir/flags.make
+CMakeFiles/deplaceme.dir/mur.c.obj: C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/mur.c
+CMakeFiles/deplaceme.dir/mur.c.obj: CMakeFiles/deplaceme.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\informatique ing1\Shadow Demon\projet-ing1s2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/deplaceme.dir/mur.c.obj"
+	C:\Windows\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/deplaceme.dir/mur.c.obj -MF CMakeFiles\deplaceme.dir\mur.c.obj.d -o CMakeFiles\deplaceme.dir\mur.c.obj -c "C:\informatique ing1\Shadow Demon\projet-ing1s2\mur.c"
+
+CMakeFiles/deplaceme.dir/mur.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/deplaceme.dir/mur.c.i"
+	C:\Windows\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\informatique ing1\Shadow Demon\projet-ing1s2\mur.c" > CMakeFiles\deplaceme.dir\mur.c.i
+
+CMakeFiles/deplaceme.dir/mur.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/deplaceme.dir/mur.c.s"
+	C:\Windows\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\informatique ing1\Shadow Demon\projet-ing1s2\mur.c" -o CMakeFiles\deplaceme.dir\mur.c.s
+
+CMakeFiles/deplaceme.dir/menu.c.obj: CMakeFiles/deplaceme.dir/flags.make
+CMakeFiles/deplaceme.dir/menu.c.obj: C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/menu.c
+CMakeFiles/deplaceme.dir/menu.c.obj: CMakeFiles/deplaceme.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\informatique ing1\Shadow Demon\projet-ing1s2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/deplaceme.dir/menu.c.obj"
+	C:\Windows\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/deplaceme.dir/menu.c.obj -MF CMakeFiles\deplaceme.dir\menu.c.obj.d -o CMakeFiles\deplaceme.dir\menu.c.obj -c "C:\informatique ing1\Shadow Demon\projet-ing1s2\menu.c"
+
+CMakeFiles/deplaceme.dir/menu.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/deplaceme.dir/menu.c.i"
+	C:\Windows\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\informatique ing1\Shadow Demon\projet-ing1s2\menu.c" > CMakeFiles\deplaceme.dir\menu.c.i
+
+CMakeFiles/deplaceme.dir/menu.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/deplaceme.dir/menu.c.s"
+	C:\Windows\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\informatique ing1\Shadow Demon\projet-ing1s2\menu.c" -o CMakeFiles\deplaceme.dir\menu.c.s
+
+CMakeFiles/deplaceme.dir/menu_niveau.c.obj: CMakeFiles/deplaceme.dir/flags.make
+CMakeFiles/deplaceme.dir/menu_niveau.c.obj: C:/informatique\ ing1/Shadow\ Demon/projet-ing1s2/menu_niveau.c
+CMakeFiles/deplaceme.dir/menu_niveau.c.obj: CMakeFiles/deplaceme.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\informatique ing1\Shadow Demon\projet-ing1s2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/deplaceme.dir/menu_niveau.c.obj"
+	C:\Windows\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/deplaceme.dir/menu_niveau.c.obj -MF CMakeFiles\deplaceme.dir\menu_niveau.c.obj.d -o CMakeFiles\deplaceme.dir\menu_niveau.c.obj -c "C:\informatique ing1\Shadow Demon\projet-ing1s2\menu_niveau.c"
+
+CMakeFiles/deplaceme.dir/menu_niveau.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/deplaceme.dir/menu_niveau.c.i"
+	C:\Windows\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\informatique ing1\Shadow Demon\projet-ing1s2\menu_niveau.c" > CMakeFiles\deplaceme.dir\menu_niveau.c.i
+
+CMakeFiles/deplaceme.dir/menu_niveau.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/deplaceme.dir/menu_niveau.c.s"
+	C:\Windows\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\informatique ing1\Shadow Demon\projet-ing1s2\menu_niveau.c" -o CMakeFiles\deplaceme.dir\menu_niveau.c.s
+
 # Object files for target deplaceme
 deplaceme_OBJECTS = \
 "CMakeFiles/deplaceme.dir/main.c.obj" \
-"CMakeFiles/deplaceme.dir/font_.c.obj" \
 "CMakeFiles/deplaceme.dir/personnage.c.obj" \
-"CMakeFiles/deplaceme.dir/animation-personage.c.obj"
+"CMakeFiles/deplaceme.dir/animation-personage.c.obj" \
+"CMakeFiles/deplaceme.dir/charger-images.c.obj" \
+"CMakeFiles/deplaceme.dir/font.c.obj" \
+"CMakeFiles/deplaceme.dir/mur.c.obj" \
+"CMakeFiles/deplaceme.dir/menu.c.obj" \
+"CMakeFiles/deplaceme.dir/menu_niveau.c.obj"
 
 # External object files for target deplaceme
 deplaceme_EXTERNAL_OBJECTS =
 
 deplaceme.exe: CMakeFiles/deplaceme.dir/main.c.obj
-deplaceme.exe: CMakeFiles/deplaceme.dir/font_.c.obj
 deplaceme.exe: CMakeFiles/deplaceme.dir/personnage.c.obj
 deplaceme.exe: CMakeFiles/deplaceme.dir/animation-personage.c.obj
+deplaceme.exe: CMakeFiles/deplaceme.dir/charger-images.c.obj
+deplaceme.exe: CMakeFiles/deplaceme.dir/font.c.obj
+deplaceme.exe: CMakeFiles/deplaceme.dir/mur.c.obj
+deplaceme.exe: CMakeFiles/deplaceme.dir/menu.c.obj
+deplaceme.exe: CMakeFiles/deplaceme.dir/menu_niveau.c.obj
 deplaceme.exe: CMakeFiles/deplaceme.dir/build.make
 deplaceme.exe: CMakeFiles/deplaceme.dir/linkLibs.rsp
 deplaceme.exe: CMakeFiles/deplaceme.dir/objects1.rsp
 deplaceme.exe: CMakeFiles/deplaceme.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\informatique ing1\Shadow Demon\projet-ing1s2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable deplaceme.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\informatique ing1\Shadow Demon\projet-ing1s2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable deplaceme.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\deplaceme.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -152,29 +152,53 @@ animation-personage.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\deplaceme.dir\build.make CMakeFiles/deplaceme.dir/animation-personage.c.s
 .PHONY : animation-personage.c.s
 
-font_.obj: font_.c.obj
-.PHONY : font_.obj
+charger-images.obj: charger-images.c.obj
+.PHONY : charger-images.obj
 
 # target to build an object file
-font_.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\deplaceme.dir\build.make CMakeFiles/deplaceme.dir/font_.c.obj
-.PHONY : font_.c.obj
+charger-images.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deplaceme.dir\build.make CMakeFiles/deplaceme.dir/charger-images.c.obj
+.PHONY : charger-images.c.obj
 
-font_.i: font_.c.i
-.PHONY : font_.i
+charger-images.i: charger-images.c.i
+.PHONY : charger-images.i
 
 # target to preprocess a source file
-font_.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\deplaceme.dir\build.make CMakeFiles/deplaceme.dir/font_.c.i
-.PHONY : font_.c.i
+charger-images.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deplaceme.dir\build.make CMakeFiles/deplaceme.dir/charger-images.c.i
+.PHONY : charger-images.c.i
 
-font_.s: font_.c.s
-.PHONY : font_.s
+charger-images.s: charger-images.c.s
+.PHONY : charger-images.s
 
 # target to generate assembly for a file
-font_.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\deplaceme.dir\build.make CMakeFiles/deplaceme.dir/font_.c.s
-.PHONY : font_.c.s
+charger-images.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deplaceme.dir\build.make CMakeFiles/deplaceme.dir/charger-images.c.s
+.PHONY : charger-images.c.s
+
+font.obj: font.c.obj
+.PHONY : font.obj
+
+# target to build an object file
+font.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deplaceme.dir\build.make CMakeFiles/deplaceme.dir/font.c.obj
+.PHONY : font.c.obj
+
+font.i: font.c.i
+.PHONY : font.i
+
+# target to preprocess a source file
+font.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deplaceme.dir\build.make CMakeFiles/deplaceme.dir/font.c.i
+.PHONY : font.c.i
+
+font.s: font.c.s
+.PHONY : font.s
+
+# target to generate assembly for a file
+font.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deplaceme.dir\build.make CMakeFiles/deplaceme.dir/font.c.s
+.PHONY : font.c.s
 
 main.obj: main.c.obj
 .PHONY : main.obj
@@ -199,6 +223,78 @@ main.s: main.c.s
 main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\deplaceme.dir\build.make CMakeFiles/deplaceme.dir/main.c.s
 .PHONY : main.c.s
+
+menu.obj: menu.c.obj
+.PHONY : menu.obj
+
+# target to build an object file
+menu.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deplaceme.dir\build.make CMakeFiles/deplaceme.dir/menu.c.obj
+.PHONY : menu.c.obj
+
+menu.i: menu.c.i
+.PHONY : menu.i
+
+# target to preprocess a source file
+menu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deplaceme.dir\build.make CMakeFiles/deplaceme.dir/menu.c.i
+.PHONY : menu.c.i
+
+menu.s: menu.c.s
+.PHONY : menu.s
+
+# target to generate assembly for a file
+menu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deplaceme.dir\build.make CMakeFiles/deplaceme.dir/menu.c.s
+.PHONY : menu.c.s
+
+menu_niveau.obj: menu_niveau.c.obj
+.PHONY : menu_niveau.obj
+
+# target to build an object file
+menu_niveau.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deplaceme.dir\build.make CMakeFiles/deplaceme.dir/menu_niveau.c.obj
+.PHONY : menu_niveau.c.obj
+
+menu_niveau.i: menu_niveau.c.i
+.PHONY : menu_niveau.i
+
+# target to preprocess a source file
+menu_niveau.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deplaceme.dir\build.make CMakeFiles/deplaceme.dir/menu_niveau.c.i
+.PHONY : menu_niveau.c.i
+
+menu_niveau.s: menu_niveau.c.s
+.PHONY : menu_niveau.s
+
+# target to generate assembly for a file
+menu_niveau.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deplaceme.dir\build.make CMakeFiles/deplaceme.dir/menu_niveau.c.s
+.PHONY : menu_niveau.c.s
+
+mur.obj: mur.c.obj
+.PHONY : mur.obj
+
+# target to build an object file
+mur.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deplaceme.dir\build.make CMakeFiles/deplaceme.dir/mur.c.obj
+.PHONY : mur.c.obj
+
+mur.i: mur.c.i
+.PHONY : mur.i
+
+# target to preprocess a source file
+mur.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deplaceme.dir\build.make CMakeFiles/deplaceme.dir/mur.c.i
+.PHONY : mur.c.i
+
+mur.s: mur.c.s
+.PHONY : mur.s
+
+# target to generate assembly for a file
+mur.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deplaceme.dir\build.make CMakeFiles/deplaceme.dir/mur.c.s
+.PHONY : mur.c.s
 
 personnage.obj: personnage.c.obj
 .PHONY : personnage.obj
@@ -236,12 +332,24 @@ help:
 	@echo ... animation-personage.obj
 	@echo ... animation-personage.i
 	@echo ... animation-personage.s
-	@echo ... font_.obj
-	@echo ... font_.i
-	@echo ... font_.s
+	@echo ... charger-images.obj
+	@echo ... charger-images.i
+	@echo ... charger-images.s
+	@echo ... font.obj
+	@echo ... font.i
+	@echo ... font.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... menu.obj
+	@echo ... menu.i
+	@echo ... menu.s
+	@echo ... menu_niveau.obj
+	@echo ... menu_niveau.i
+	@echo ... menu_niveau.s
+	@echo ... mur.obj
+	@echo ... mur.i
+	@echo ... mur.s
 	@echo ... personnage.obj
 	@echo ... personnage.i
 	@echo ... personnage.s

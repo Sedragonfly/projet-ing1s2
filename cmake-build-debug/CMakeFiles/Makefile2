@@ -80,12 +80,12 @@ clean: CMakeFiles/deplaceme.dir/clean
 CMakeFiles/deplaceme.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\deplaceme.dir\build.make CMakeFiles/deplaceme.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\deplaceme.dir\build.make CMakeFiles/deplaceme.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\informatique ing1\Shadow Demon\projet-ing1s2\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5 "Built target deplaceme"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\informatique ing1\Shadow Demon\projet-ing1s2\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9 "Built target deplaceme"
 .PHONY : CMakeFiles/deplaceme.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/deplaceme.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\informatique ing1\Shadow Demon\projet-ing1s2\cmake-build-debug\CMakeFiles" 5
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\informatique ing1\Shadow Demon\projet-ing1s2\cmake-build-debug\CMakeFiles" 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/deplaceme.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\informatique ing1\Shadow Demon\projet-ing1s2\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/deplaceme.dir/rule

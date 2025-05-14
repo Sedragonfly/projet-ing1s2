@@ -75,4 +75,5 @@ CMakeFiles/deplaceme.dir/font_.c.obj: \
  c:\windows\mingw\include\allegro/3dmaths.h \
  c:\windows\mingw\include\allegro/inline/3dmaths.inl \
  c:\windows\mingw\include\allegro/alcompat.h \
- c:\windows\mingw\include\allegro/platform/alwin.h
+ c:\windows\mingw\include\allegro/platform/alwin.h \
+ c:\windows\mingw\include\math.h
